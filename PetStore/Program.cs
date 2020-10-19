@@ -11,7 +11,7 @@ namespace PetStore
 
             Animal[] animals = {new Fish{ Id = 4, Name = "Hagrid" },
                                 new Snake{ Id = 7, Name = "Kaa" },
-                                new Bird { Id = 8, Name = "Tweety" } };
+                                new Bird { Id = 8, Name = "Gene" } };
 
             Manual manual = new Manual { OpenHours = "9-18" };
             IEmployee roland = new Employee { Name = "Roland Björk", Age = 26, Manual = manual, PayPerHour = 200, VacationDays = 30 };

@@ -9,7 +9,7 @@ namespace PetStore
 
             Fish[] fishes = { new Fish { Id = 4, Name = "Wanda" }, new Fish { Id = 5, Name = "Adam" }, new Fish { Id = 6, Name = "Robin" } };
 
-            Animal[] animals = {new Fish{ Id = 4, Name = "Wanda" },
+            Animal[] animals = {new Fish{ Id = 4, Name = "Hagrid" },
                                 new Snake{ Id = 7, Name = "Kaa" },
                                 new Bird { Id = 8, Name = "Tweety" } };
 

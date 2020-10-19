@@ -7,53 +7,11 @@ namespace PetStore
         static void Main(string[] args)
         {
 
-            //Animal animal = new Animal();
-
-            //animal.Id = 1;
-            //animal.Name = "Torsten";
-
-            //Console.WriteLine(animal.GetInfo());
-            //Console.WriteLine(animal.Sleep());
-
-
-
-            //Mammal mammal = new Mammal();
-            //mammal.Id = 2;
-            //mammal.Name = "Göran";
-
-            //Console.WriteLine(mammal.GetInfo());
-            //Console.WriteLine(mammal.Sleep());
-            //Console.WriteLine(mammal.Suckle());
-            //Console.WriteLine(mammal.Hair());
-
-            //Reptile reptile = new Reptile();
-            //reptile.Id = 3;
-            //reptile.Name = "Greta";
-            //Console.WriteLine(reptile.ColdBlooded());
-
-            //Snake snake = new Snake {Id = 4, Name = "Albin"};
-            //Console.WriteLine(snake.GetInfo());
-            //Console.WriteLine(snake.ColdBlooded());
-            //Console.WriteLine(snake.NoLegs()); 
-
-            //Animal fish = new Fish { Id = 4, Name = "Wanda" };
-            //Console.WriteLine(fish.GetInfo());
-            //Console.WriteLine(fish.Breathe());
-
             Fish[] fishes = { new Fish { Id = 4, Name = "Wanda" }, new Fish { Id = 5, Name = "Adam" }, new Fish { Id = 6, Name = "Robin" } };
 
             Animal[] animals = {new Fish{ Id = 4, Name = "Wanda" },
                                 new Snake{ Id = 7, Name = "Kaa" },
                                 new Bird { Id = 8, Name = "Tweety" } };
-
-            //Console.WriteLine("----------------------");
-            //foreach (var animal in animals)
-            //{
-            //    Console.WriteLine(animal.GetInfo());
-            //    Console.WriteLine(animal.Breathe());
-            //    Console.WriteLine("I say: "+animal.MakeNoise());
-            //    Console.WriteLine("----------------------");
-            //}
 
             Manual manual = new Manual { OpenHours = "9-18" };
             IEmployee roland = new Employee { Name = "Roland Björk", Age = 25, Manual = manual, PayPerHour = 200, VacationDays = 30 };

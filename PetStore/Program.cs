@@ -22,13 +22,13 @@ namespace PetStore
             IEmployee[] employees = { roland, gabriella };
 
             Console.WriteLine(roland.GetInfo());
-            Console.WriteLine("salary: " + roland.Salary(160));
-            Console.WriteLine("vacation days: " + roland.VacationDays);
+            Console.WriteLine("Salary: " + roland.Salary(160));
+            Console.WriteLine("Vacation days: " + roland.VacationDays);
 
             Console.WriteLine("----------------------");
             Console.WriteLine(gabriella.GetInfo());
-            Console.WriteLine("salary: " + gabriella.Salary(160));
-            Console.WriteLine("vacation days: " + gabriella.VacationDays);
+            Console.WriteLine("Salary: " + gabriella.Salary(160));
+            Console.WriteLine("Vacation days: " + gabriella.VacationDays);
 
             Console.WriteLine("----------------------");
 
@@ -36,8 +36,8 @@ namespace PetStore
             Owner goran = new Owner { Name = "Göran Persson", Age = 58, Manual = manual, PayPerHour = 300, VacationDays = 35 };
 
             Console.WriteLine(goran.GetInfo());
-            Console.WriteLine("salary: " + goran.Salary(160));
-            Console.WriteLine("vacation days: " + goran.VacationDays);
+            Console.WriteLine("Salary: " + goran.Salary(160));
+            Console.WriteLine("Vacation days: " + goran.VacationDays);
             Console.WriteLine(goran.BossAround());
 
 

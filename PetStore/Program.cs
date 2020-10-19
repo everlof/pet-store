@@ -14,8 +14,8 @@ namespace PetStore
                                 new Bird { Id = 8, Name = "Tweety" } };
 
             Manual manual = new Manual { OpenHours = "9-18" };
-            IEmployee roland = new Employee { Name = "Roland Björk", Age = 25, Manual = manual, PayPerHour = 200, VacationDays = 30 };
-            IEmployee gabriella = new Employee { Name = "Gabriella Holmberg", Age = 38, Manual = manual, PayPerHour = 230, VacationDays = 35 };
+            IEmployee roland = new Employee { Name = "Roland Björk", Age = 26, Manual = manual, PayPerHour = 200, VacationDays = 30 };
+            IEmployee gabriella = new Employee { Name = "Gabriella Holmberg", Age = 39, Manual = manual, PayPerHour = 230, VacationDays = 35 };
 
             //På samma sätt som vid arv kan du skapa upp en array av typen IEmployee.
             //I det här exemplet har det ingen större betydelse då båda instanserna är av samma klass.
